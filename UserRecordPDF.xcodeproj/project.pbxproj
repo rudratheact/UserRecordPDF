@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17484C8D25D6F54600D303DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17484C8C25D6F54600D303DB /* AppDelegate.swift */; };
+		17484C8F25D6F54600D303DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17484C8E25D6F54600D303DB /* SceneDelegate.swift */; };
+		17484C9125D6F54600D303DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17484C9025D6F54600D303DB /* ViewController.swift */; };
+		17484C9425D6F54600D303DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17484C9225D6F54600D303DB /* Main.storyboard */; };
+		17484C9725D6F54600D303DB /* UserRecordPDF.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17484C9525D6F54600D303DB /* UserRecordPDF.xcdatamodeld */; };
+		17484C9925D6F54900D303DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17484C9825D6F54900D303DB /* Assets.xcassets */; };
+		17484C9C25D6F54900D303DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17484C9A25D6F54900D303DB /* LaunchScreen.storyboard */; };
+		17484CA725D6F54A00D303DB /* UserRecordPDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17484CA625D6F54A00D303DB /* UserRecordPDFTests.swift */; };
+		17484CB225D6F54A00D303DB /* UserRecordPDFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17484CB125D6F54A00D303DB /* UserRecordPDFUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17484CA325D6F54A00D303DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17484C8125D6F54600D303DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17484C8825D6F54600D303DB;
+			remoteInfo = UserRecordPDF;
+		};
+		17484CAE25D6F54A00D303DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17484C8125D6F54600D303DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17484C8825D6F54600D303DB;
+			remoteInfo = UserRecordPDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17484C8925D6F54600D303DB /* UserRecordPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserRecordPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17484C8C25D6F54600D303DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17484C8E25D6F54600D303DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17484C9025D6F54600D303DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17484C9325D6F54600D303DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17484C9625D6F54600D303DB /* UserRecordPDF.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserRecordPDF.xcdatamodel; sourceTree = "<group>"; };
+		17484C9825D6F54900D303DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17484C9B25D6F54900D303DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17484C9D25D6F54900D303DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17484CA225D6F54A00D303DB /* UserRecordPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserRecordPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17484CA625D6F54A00D303DB /* UserRecordPDFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRecordPDFTests.swift; sourceTree = "<group>"; };
+		17484CA825D6F54A00D303DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17484CAD25D6F54A00D303DB /* UserRecordPDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserRecordPDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17484CB125D6F54A00D303DB /* UserRecordPDFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRecordPDFUITests.swift; sourceTree = "<group>"; };
+		17484CB325D6F54A00D303DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17484C8625D6F54600D303DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17484C9F25D6F54A00D303DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17484CAA25D6F54A00D303DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17484C8025D6F54600D303DB = {
+			isa = PBXGroup;
+			children = (
+				17484C8B25D6F54600D303DB /* UserRecordPDF */,
+				17484CA525D6F54A00D303DB /* UserRecordPDFTests */,
+				17484CB025D6F54A00D303DB /* UserRecordPDFUITests */,
+				17484C8A25D6F54600D303DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17484C8A25D6F54600D303DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17484C8925D6F54600D303DB /* UserRecordPDF.app */,
+				17484CA225D6F54A00D303DB /* UserRecordPDFTests.xctest */,
+				17484CAD25D6F54A00D303DB /* UserRecordPDFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17484C8B25D6F54600D303DB /* UserRecordPDF */ = {
+			isa = PBXGroup;
+			children = (
+				17484C8C25D6F54600D303DB /* AppDelegate.swift */,
+				17484C8E25D6F54600D303DB /* SceneDelegate.swift */,
+				17484C9025D6F54600D303DB /* ViewController.swift */,
+				17484C9225D6F54600D303DB /* Main.storyboard */,
+				17484C9825D6F54900D303DB /* Assets.xcassets */,
+				17484C9A25D6F54900D303DB /* LaunchScreen.storyboard */,
+				17484C9D25D6F54900D303DB /* Info.plist */,
+				17484C9525D6F54600D303DB /* UserRecordPDF.xcdatamodeld */,
+			);
+			path = UserRecordPDF;
+			sourceTree = "<group>";
+		};
+		17484CA525D6F54A00D303DB /* UserRecordPDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				17484CA625D6F54A00D303DB /* UserRecordPDFTests.swift */,
+				17484CA825D6F54A00D303DB /* Info.plist */,
+			);
+			path = UserRecordPDFTests;
+			sourceTree = "<group>";
+		};
+		17484CB025D6F54A00D303DB /* UserRecordPDFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17484CB125D6F54A00D303DB /* UserRecordPDFUITests.swift */,
+				17484CB325D6F54A00D303DB /* Info.plist */,
+			);
+			path = UserRecordPDFUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17484C8825D6F54600D303DB /* UserRecordPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17484CB625D6F54A00D303DB /* Build configuration list for PBXNativeTarget "UserRecordPDF" */;
+			buildPhases = (
+				17484C8525D6F54600D303DB /* Sources */,
+				17484C8625D6F54600D303DB /* Frameworks */,
+				17484C8725D6F54600D303DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UserRecordPDF;
+			productName = UserRecordPDF;
+			productReference = 17484C8925D6F54600D303DB /* UserRecordPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17484CA125D6F54A00D303DB /* UserRecordPDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17484CB925D6F54A00D303DB /* Build configuration list for PBXNativeTarget "UserRecordPDFTests" */;
+			buildPhases = (
+				17484C9E25D6F54A00D303DB /* Sources */,
+				17484C9F25D6F54A00D303DB /* Frameworks */,
+				17484CA025D6F54A00D303DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17484CA425D6F54A00D303DB /* PBXTargetDependency */,
+			);
+			name = UserRecordPDFTests;
+			productName = UserRecordPDFTests;
+			productReference = 17484CA225D6F54A00D303DB /* UserRecordPDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17484CAC25D6F54A00D303DB /* UserRecordPDFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17484CBC25D6F54A00D303DB /* Build configuration list for PBXNativeTarget "UserRecordPDFUITests" */;
+			buildPhases = (
+				17484CA925D6F54A00D303DB /* Sources */,
+				17484CAA25D6F54A00D303DB /* Frameworks */,
+				17484CAB25D6F54A00D303DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17484CAF25D6F54A00D303DB /* PBXTargetDependency */,
+			);
+			name = UserRecordPDFUITests;
+			productName = UserRecordPDFUITests;
+			productReference = 17484CAD25D6F54A00D303DB /* UserRecordPDFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17484C8125D6F54600D303DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					17484C8825D6F54600D303DB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					17484CA125D6F54A00D303DB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 17484C8825D6F54600D303DB;
+					};
+					17484CAC25D6F54A00D303DB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 17484C8825D6F54600D303DB;
+					};
+				};
+			};
+			buildConfigurationList = 17484C8425D6F54600D303DB /* Build configuration list for PBXProject "UserRecordPDF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17484C8025D6F54600D303DB;
+			productRefGroup = 17484C8A25D6F54600D303DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17484C8825D6F54600D303DB /* UserRecordPDF */,
+				17484CA125D6F54A00D303DB /* UserRecordPDFTests */,
+				17484CAC25D6F54A00D303DB /* UserRecordPDFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17484C8725D6F54600D303DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17484C9C25D6F54900D303DB /* LaunchScreen.storyboard in Resources */,
+				17484C9925D6F54900D303DB /* Assets.xcassets in Resources */,
+				17484C9425D6F54600D303DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17484CA025D6F54A00D303DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17484CAB25D6F54A00D303DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17484C8525D6F54600D303DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17484C9125D6F54600D303DB /* ViewController.swift in Sources */,
+				17484C8D25D6F54600D303DB /* AppDelegate.swift in Sources */,
+				17484C9725D6F54600D303DB /* UserRecordPDF.xcdatamodeld in Sources */,
+				17484C8F25D6F54600D303DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17484C9E25D6F54A00D303DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17484CA725D6F54A00D303DB /* UserRecordPDFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17484CA925D6F54A00D303DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17484CB225D6F54A00D303DB /* UserRecordPDFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17484CA425D6F54A00D303DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17484C8825D6F54600D303DB /* UserRecordPDF */;
+			targetProxy = 17484CA325D6F54A00D303DB /* PBXContainerItemProxy */;
+		};
+		17484CAF25D6F54A00D303DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17484C8825D6F54600D303DB /* UserRecordPDF */;
+			targetProxy = 17484CAE25D6F54A00D303DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17484C9225D6F54600D303DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17484C9325D6F54600D303DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17484C9A25D6F54900D303DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17484C9B25D6F54900D303DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17484CB425D6F54A00D303DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17484CB525D6F54A00D303DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17484CB725D6F54A00D303DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTQKV8DY33;
+				INFOPLIST_FILE = UserRecordPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rudra.testing.UserRecordPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17484CB825D6F54A00D303DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTQKV8DY33;
+				INFOPLIST_FILE = UserRecordPDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rudra.testing.UserRecordPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17484CBA25D6F54A00D303DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTQKV8DY33;
+				INFOPLIST_FILE = UserRecordPDFTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rudra.testing.UserRecordPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserRecordPDF.app/UserRecordPDF";
+			};
+			name = Debug;
+		};
+		17484CBB25D6F54A00D303DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTQKV8DY33;
+				INFOPLIST_FILE = UserRecordPDFTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rudra.testing.UserRecordPDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserRecordPDF.app/UserRecordPDF";
+			};
+			name = Release;
+		};
+		17484CBD25D6F54A00D303DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTQKV8DY33;
+				INFOPLIST_FILE = UserRecordPDFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rudra.testing.UserRecordPDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UserRecordPDF;
+			};
+			name = Debug;
+		};
+		17484CBE25D6F54A00D303DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TTQKV8DY33;
+				INFOPLIST_FILE = UserRecordPDFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rudra.testing.UserRecordPDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UserRecordPDF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17484C8425D6F54600D303DB /* Build configuration list for PBXProject "UserRecordPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17484CB425D6F54A00D303DB /* Debug */,
+				17484CB525D6F54A00D303DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17484CB625D6F54A00D303DB /* Build configuration list for PBXNativeTarget "UserRecordPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17484CB725D6F54A00D303DB /* Debug */,
+				17484CB825D6F54A00D303DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17484CB925D6F54A00D303DB /* Build configuration list for PBXNativeTarget "UserRecordPDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17484CBA25D6F54A00D303DB /* Debug */,
+				17484CBB25D6F54A00D303DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17484CBC25D6F54A00D303DB /* Build configuration list for PBXNativeTarget "UserRecordPDFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17484CBD25D6F54A00D303DB /* Debug */,
+				17484CBE25D6F54A00D303DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17484C9525D6F54600D303DB /* UserRecordPDF.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17484C9625D6F54600D303DB /* UserRecordPDF.xcdatamodel */,
+			);
+			currentVersion = 17484C9625D6F54600D303DB /* UserRecordPDF.xcdatamodel */;
+			path = UserRecordPDF.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17484C8125D6F54600D303DB /* Project object */;
+}
